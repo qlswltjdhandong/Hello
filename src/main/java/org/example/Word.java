@@ -7,6 +7,11 @@ public class Word {
     public Word() {
     }
 
+    public Word(String id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
     public String getId() {
         return id;
     }
